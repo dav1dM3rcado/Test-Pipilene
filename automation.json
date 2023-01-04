@@ -1,0 +1,14 @@
+
+{
+    "id": "243gfg-re321wdcv-ergt4bklsjn123",
+    "name": "automatino-enviroment",
+    "values" :[
+        {
+            "key": "protocl",
+            "value": "https",
+            "enabled" :"true",
+            "suel": "false"
+            
+        }
+    ]
+}
