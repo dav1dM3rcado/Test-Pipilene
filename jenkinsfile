@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+
+    stages {
+        stage ('isntall'){
+            steps {
+                git branch: 'main', url: 'https://github.com/dav1dM3rcado/Test-Pipilene.git'
+                dir('TEST-PIPILENE'){
+                    sh 'npm install'
+                }
+    
+            } 
+        }
+        
+    }
+}
